@@ -1,0 +1,7 @@
+Frontend 
+
+cd frontend ----> npm install/ npm i ----> npm run dev
+
+Backend
+
+cd backend -----> pip install requirements.txt ---> activate venv(.\venv\Scripts\Activate) ----> python app.py
