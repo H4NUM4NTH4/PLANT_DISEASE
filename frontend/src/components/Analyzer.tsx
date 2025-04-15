@@ -8,7 +8,7 @@ import { useToast } from "@/hooks/use-toast";
 
 type CropType = "rice" | "wheat" | "corn" | "potato" | "sugarcane";
 
-const API_URL = "http://127.0.0.1:5000/predict";
+const API_URL = `${import.meta.env.VITE_REACT_APP_BACKEND_URL}/predict`;
 
 const Analyzer = () => {
   const [selectedCrop, setSelectedCrop] = useState<CropType | null>(null);
